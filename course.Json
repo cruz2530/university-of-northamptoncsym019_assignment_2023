@@ -1,0 +1,49 @@
+{
+    "courses": [
+      {
+        "course_name": "Accounting and Finance MSc",
+        "school": "The University Of Northampton",
+        "level": "Postgraduate",
+        "duration": "1 year full-time with placement 2 years",
+        "Starting":"September,february",
+        "entry_requirements": [
+          "if you hold a recognised firat or second class honours degree from UK university or international equivelent in finance,banking, account",
+          "English Language Requirement:All international and Eu students applying for a course nust meet the following minimum English requirement",
+          "Minimum standard-IELTS 6.5",
+          "or equivalent qualifications"
+        ],
+        "fees": {
+          "UK_FULL TIME": {
+            "annual_fee": "£8,010"
+  
+          },
+          "international_FULL TIME": {
+            "annual_fee": "£16,500"
+          
+          }
+        }
+      },
+      {
+        "course_name": "Adult Nursing BSc (Hons)",
+        "UCAS_code": "BS101",
+        "school": "The University Of Northampton",
+        "Starting": "September,february",
+        "duration": "3 years full-time",
+        "entry_requirements": [ 
+          "All applicantS must have:English Language and Maths GCSE",
+          "BCC at A level",
+          "Evidence of recent academic study",
+          "or equivalent qualifications"
+        ],
+        "fees": {
+          "UK_FULL TIME": {
+            "annual_fee": "£9,250"
+          },
+          "international_FULL TIME": {
+            "annual_fee": "£17,250"
+          }
+        }
+      }
+    ]
+  }
+  

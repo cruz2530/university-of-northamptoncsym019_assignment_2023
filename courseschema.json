@@ -1,0 +1,68 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "course schema",
+    "type": "object",
+    "required": ["courses"],
+    "properties": {
+      "courses": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "course_name",
+            "school",
+            "level",
+            "duration",
+            "starting",
+            "entry_requirements",
+            "fees"
+          ],
+          "properties": {
+            "course_name": {
+              "type": "string"
+            },
+            "school": {
+              "type": "string"
+            },
+            "level": {
+              "type": "string"
+            },
+            "duration": {
+              "type": "string"
+            },
+            "starting": {
+              "type": "string"
+            },
+            "entry_requirements": {
+              "type": "string"
+            },
+            "fees": {
+              "type": "object",
+              "required": ["UK_FULL_TIME", "international_FULL_TIME"],
+              "properties": {
+                "UK_FULL_TIME": {
+                  "type": "object",
+                  "required": ["annual_fee"],
+                  "properties": {
+                    "annual_fee": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "international_FULL_TIME": {
+                  "type": "object",
+                  "required": ["annual_fee"],
+                  "properties": {
+                    "annual_fee": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
