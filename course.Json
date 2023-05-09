@@ -1,11 +1,13 @@
 {
     "courses": [
       {
+        "id": 1,
         "course_name": "Accounting and Finance MSc",
         "school": "The University Of Northampton",
+        "courseicon": "icon.png",
         "level": "Postgraduate",
         "duration": "1 year full-time with placement 2 years",
-        "Starting":"September,february",
+        "Starting":"September,February",
         "entry_requirements": [
           "if you hold a recognised firat or second class honours degree from UK university or international equivelent in finance,banking, account",
           "English Language Requirement:All international and Eu students applying for a course nust meet the following minimum English requirement",
@@ -13,22 +15,24 @@
           "or equivalent qualifications"
         ],
         "fees": {
-          "UK_FULL TIME": {
+          "UK_FULL_TIME": {
             "annual_fee": "£8,010"
   
           },
-          "international_FULL TIME": {
+          "international_FULL_TIME": {
             "annual_fee": "£16,500"
           
           }
         }
       },
       {
+        "id": 2,
         "course_name": "Adult Nursing BSc (Hons)",
-        "UCAS_code": "BS101",
-        "school": "The University Of Northampton",
-        "Starting": "September,february",
-        "duration": "3 years full-time",
+        "school":"The University Of Northampton",
+        "courseicon": "icon.png",
+        "level":"Undergraduate",
+        "duration":"3 years full-time",
+        "Starting": "September,February",
         "entry_requirements": [ 
           "All applicantS must have:English Language and Maths GCSE",
           "BCC at A level",
@@ -36,11 +40,228 @@
           "or equivalent qualifications"
         ],
         "fees": {
-          "UK_FULL TIME": {
+          "UK_FULL_TIME": {
             "annual_fee": "£9,250"
           },
-          "international_FULL TIME": {
+          "international_FULL_TIME": {
             "annual_fee": "£17,250"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "course_name": "Computer Networks Engineering BSc (Hons)",
+        "school": "The University Of Northampton",
+        "courseicon": "icon.png",
+        "level": "Undergraduate",
+        "duration": "3 years full-time",
+        "Starting":"September",
+        "entry_requirements": [
+          "if you hold a recognised firat or second class honours degree from UK university or international equivelent in finance,banking, account",
+          "English Language Requirement:All international and Eu students applying for a course nust meet the following minimum English requirement",
+          "Minimum standard-IELTS 6.5",
+          "or equivalent qualifications"
+        ],
+        "fees": {
+          "UK_FULL_TIME": {
+            "annual_fee": "£9,250"
+  
+          },
+          "international_FULL_TIME": {
+            "annual_fee": "£1,540 per 20 credit module"
+          
+          }
+        }
+      },
+      {
+        "id": 4,
+        "course_name": "Biochemistry BSc (Hons)",
+        "school":"The University Of Northampton",
+        "courseicon": "icon.png",
+        "level":"Undergraduate",
+        "duration": [
+                      "Full Time: 3 years",
+                      "Full Time Foundation: 4 years",
+                      "Part Time: 4 - 6 years"],
+        "Starting": "September",
+        "entry_requirements": [ 
+          "Standard entry requirements apply for this biochemistry degree. A typical offer is:",
+          "BCC at A Level or,",
+          "DMM at BTEC or,",
+          "Pass (C and above) at T Level" 
+        ],
+        "fees": {
+          "UK_FULL_TIME": {
+            "annual_fee": ["Full Time: £9,250",
+                          "Part Time: £1,540 per 20 credit module",
+                          "Integrated Foundation Year: £9,250"]
+          },
+          "international_FULL_TIME": {
+            "annual_fee": ["Full Time: £14,750",
+            "Integrated Foundation Year: £14,750"]
+          }
+        }
+      },
+      {
+        "id": 5,
+        "course_name": "Doctor of Business Administration DBA",
+        "school": "The University Of Northampton",
+        "courseicon": "icon.png",
+        "level": "Postgraduate",
+        "duration": "Part Time: 4 Years",
+        "Starting":"September",
+        "entry_requirements": [
+          "Applicants will need to meet all of the following criteria",
+          "Hold a Masters degree in a business-related subject, normally completed within the last ten years.",
+          "Have a minimum of five years relevant work experience, at an appropriate level.",
+          "Be employed in a senior leadership/management role capable of supporting the achievement of the programme learning outcomes, including the professional research project."
+        ],
+        "fees": {
+          "UK_FULL_TIME": {
+            "annual_fee": ["Year 1 - 2: £8000 per year", 
+                            "Year 3 - 4: £4000 per year"]
+  
+          },
+          "international_FULL_TIME": {
+            "annual_fee": ["Year 1 - 2: £8000 per year", 
+                            "Year 3 - 4: £4000 per year"]
+          
+          }
+        }
+      },
+      {
+        "id": 6,
+        "course_name": "Biological Sciences BSc (Hons)",
+        "school": "The University Of Northampton",
+        "courseicon": "icon.png",
+        "level": "Undergraduate",
+        "duration": ["Full Time: 3 years", 
+                    " Full Time Foundation: 4 years",
+                    "Part Time: 4 years"],
+        "Starting":"September",
+        "entry_requirements": [
+          "Standard entry requirements apply for this biological sciences degree. A typical offer would be",
+          "BCC at A Level or,",
+          "DMM at BTEC or,",
+          "Pass (C and above) at T Level"
+        ],
+        "fees": {
+          "UK_FULL_TIME": {
+            "annual_fee": ["Year 1 - 2: £8000 per year", 
+                            "Year 3 - 4: £4000 per year"]
+  
+          },
+          "international_FULL_TIME": {
+            "annual_fee": ["Year 1 - 2: £8000 per year", 
+                            "Year 3 - 4: £4000 per year"]
+          
+          }
+        }
+      },
+      {
+        "id": 7,
+        "course_name": "Marketing Management (Top-Up) BA (Hons)",
+        "school": "The University Of Northampton",
+        "courseicon": "icon.png",
+        "level": "Undergraduate",
+        "duration": ["Full Time: 1 Year",
+                      " Part Time: 2 Years"],
+        "Starting":"September",
+        "entry_requirements": [
+          "You will need to hold a Higher National Diploma (HND) or equivalent (Edexcel, ABE, NCC),",
+          "a Foundation Degree or an equivalent overseas qualification such as the Chinese Dazhuan).",
+          "This may be in any Business-related area (including Travel and Tourism Management)"
+        ],
+        "fees": {
+          "UK_FULL_TIME": {
+            "annual_fee": ["Full Time: £9,250",
+                            "Part Time: £1,540"]
+  
+          },
+          "international_FULL_TIME": {
+            "annual_fee": "£15,500"
+          
+          }
+        }
+      },
+      {
+        "id": 8,
+        "course_name": "Master of Business Administration  Finance MBA",
+        "school": "The University Of Northampton",
+        "courseicon": "icon.png",
+        "level": "Postgraduate",
+        "duration": ["Full Time: 1 Year",
+                    "Full Time with Placement: 18 - 24 Months"],
+        "Starting":"September",
+        "entry_requirements": [
+          "A Foundation Degree or an equivalent overseas qualification such as the Chinese Dazhuan).",
+          "This may be in any Business-related area (including Travel and Tourism Management)",
+          "If English is not your first language, you must meet the following English language requirements:",
+          "IELTS 6.5 overall with a minimum of 6.0 in writing and 5.5 in all other skills."
+        ],
+        "fees": {
+          "UK_FULL_TIME": {
+            "annual_fee": "£11,800"
+  
+          },
+          "international_FULL_TIME": {
+            "annual_fee": "£17,500"
+          
+          }
+        }
+      },
+      {
+        "id": 9,
+        "course_name": "Nursing Associate FdSc",
+        "school": "The University Of Northampton",
+        "courseicon": "icon.png",
+        "level": "Undergraduate",
+        "duration": "2 years Full-time",
+        "Starting":"September",
+        "entry_requirements": [
+          "The following are entry requirements for the Nursing Associate foundation degree:",
+          "Level 2 qualification  Maths and English Language Grade C or equivalent",
+          "Level 3 qualification  pass grade or Access Course  Pass grade or BTEC Extended Diploma – PPP or BTEC Diploma – MM or 1 A level – Grade E or Pass (D or E) at T Level",
+          "IELTS 6.5 overall with a minimum of 6.0 in writing and 5.5 in all other skills."
+        ],
+        "fees": {
+          "UK_FULL_TIME": {
+            "annual_fee": "£9,250"
+  
+          },
+          "international_FULL_TIME": {
+            "annual_fee": "£14,750"
+          
+          }
+        }
+      },
+      {
+        "id": 10,
+        "course_name": "Software Engineering BSc (Hons)",
+        "school": "The University Of Northampton",
+        "courseicon": "icon.png",
+        "level": "Undergraduate",
+        "duration": ["Full Time: 3 years",
+                      "Full Time Foundation: 4 years",
+                      "Part Time: 4 - 6 years"],
+        "Starting":"September",
+        "entry_requirements": [
+          "The following are entry requirements for the Nursing Associate foundation degree:",
+          "Level 2 qualification  Maths and English Language Grade C or equivalent",
+          "Level 3 qualification  pass grade or Access Course  Pass grade or BTEC Extended Diploma – PPP or BTEC Diploma – MM or 1 A level – Grade E or Pass (D or E) at T Level",
+          "IELTS 6.5 overall with a minimum of 6.0 in writing and 5.5 in all other skills."
+        ],
+        "fees": {
+          "UK_FULL_TIME": {
+            "annual_fee": ["Full Time: £9,250",
+                            "Part Time: £1,540",
+                            "Integrated Foundation Year: £9,250"]
+  
+          },
+          "international_FULL_TIME": {
+            "annual_fee": ["Full Time: £14,750",
+                            "Integrated Foundation Year: £14,750"]
+          
           }
         }
       }
