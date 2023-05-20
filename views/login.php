@@ -1,14 +1,24 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-    <?php 
+<?php
+    if(!isset($_SESSION)) 
+        session_start();
+
+    require_once('users.php');
+
+    $users = new User();
     
-        require("../include/head.php"); 
-        require("../php/login.php")
-    ?>
-</head>
-<body id="login-body">
+    if($_SERVER['REQUEST_METHOD'] == "GET") 
+        unset($_SESSION['loginF']);
 
 
-</body>
-</html>
+    if($_SERVER['REQUEST_METHOD'] == "POST" ){
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        $user = $users->getAUser($username);
+
+        if($user && $user->username == $username and $user->password == $password){
+            $_SESSION['access'] = True;
+            exit(header("location: ../"));
+        }
+        $_SESSION['loginF'] = True;
+    }
