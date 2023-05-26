@@ -16,17 +16,17 @@ class Database
         // If no connection is available, create a new one
         if (!self::$connection) {
 
-            self::$connection = self::makeConnection("localhost","root","",'task2');
+            self::$connection = self::makeConnection("localhost","root",'Adeyemi$20','task2');
             // Adjust the connection details based on your database configuration
         }
 
         return self::$connection;
     }
 
-    private static  function makeConnection($servername,$username,$password,$dbName){
+    private static function makeConnection($servername,$username,$password,$dbName){
         try {
         
-            $conn = new PDO("mysql:host=$servername;port=8111;dbname=$dbName", $username, $password);
+            $conn = new PDO("mysql:host=$servername;port=3306;dbname=$dbName", $username, $password);
             // set the PDO error mode to exception
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -47,5 +47,4 @@ class Database
         self::$pool[] = $connection;
     }
 }
-
 ?>
