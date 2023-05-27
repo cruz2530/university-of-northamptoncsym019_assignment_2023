@@ -1,6 +1,6 @@
 <?php 
 
-    require_once('db.php');
+    require_once($_SERVER['DOCUMENT_ROOT'].'/task2/php/config/db.php');
 
     class User {
 

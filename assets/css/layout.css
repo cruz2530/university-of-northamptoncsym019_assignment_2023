@@ -1,0 +1,490 @@
+.action-button {
+    font-size: 1.5em; /* Adjust the font size as desired */
+    margin-right: 10px; /* Add some space between the buttons */
+}
+
+header {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    grid-area: header;
+    width: 100%;
+    height: 60px; /* Adjust this value to match your header height */
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    background-color: whitesmoke;
+    color: black;
+    grid-area: nav;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-right: 2%;
+    border-color: whitesmoke;
+    border-style: solid;
+    /*width: 10%;*/
+    background-color: whitesmoke;
+  }
+  
+nav > ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color on hover */
+nav > ul li a:hover {
+    background-color: #555;
+    color: whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 1em;
+    padding-left: 1em;
+    grid-area: main;
+}
+
+footer {
+    padding-top: 2em;
+    background-color: #555;
+    color: white;
+    grid-area: footer;
+}
+
+.note {
+    color: red;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1em;
+}
+
+.blueNote {
+    color: blue;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+.sketch img {
+    width: 60%;
+    height: auto;
+}
+
+.addmore > input {
+    display:block;
+    float: left;
+    margin: 0 2em 2em 2em;
+    padding: 0.5em 5em;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color:#555;
+}
+
+/* Change the link color on hover */
+.addmore > input:hover {
+    display:block;
+    float: left;
+    margin: 0 2em 2em 2em;
+    padding: 0.5em 5em;
+    text-decoration: none;
+    background-color: #555;
+    color: whitesmoke;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Mulish", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+.header {
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+nav {
+    background-color: whitesmoke;
+    color: black;
+    grid-area: nav;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-right: 2%;
+    border-color: whitesmoke;
+    border-style: solid;
+    /*width: 10%;*/
+    background-color: whitesmoke;
+}
+
+nav>ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav>ul li a:hover {
+    background-color: #555;
+    color: whitesmoke;
+}
+
+main {
+    padding: 10px 0px;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 40px;
+}
+
+.formParentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 10px 3px;
+}
+
+.formFieldContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formFields {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.inputFields {
+    width: 400px;
+    height: 70px;
+    padding: 5px 5px;
+
+}
+
+.inputFields2 {
+    width: 300px;
+    height: 50px;
+    padding: 5px 5px;
+
+}
+
+#overview {
+    width: 400px;
+    height: 150px;
+    padding: 5px 5px;
+}
+
+.formTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    color: white;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.field1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.field-wrapper h2 {
+    font-weight: 600;
+}
+
+.formFields h2 {
+    font-weight: 600;
+}
+
+.addMore,
+.remove {
+    width: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.addMore:hover,
+.remove:hover {
+    cursor: pointer;
+    background-color: #bcbcbc;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.11);
+}
+
+.faqFieldContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.faqFieldContainer button {
+    margin-top: 30px;
+}
+
+
+.addCourse , .updateCourse {
+    width: 200px;
+    height: auto;
+    padding: 10px 20px;
+    border: 1px solid rgb(198, 198, 198);
+
+}
+
+.addCourse:hover, .updateCourse:hover {
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #bcbcbc;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.11);
+}
+
+.module-input {
+    display: flex;
+    gap: 10px;
+}
+
+.chartContainer {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.canvasContainer{
+    width: 100%;
+
+
+}
+
+
+#chartsContainer{
+    width: 80%;
+}
+
+.pieContainer{
+    width: 70%;
+}
+
+.coursesContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.mainContainer{
+    width: 100%;
+}
+
+
+.courseList {
+    width: 300px;
+}
+
+.invalid{
+    border-color: red;
+}
+
+@media screen and (max-width: 1140px) {
+
+    .header h3 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+
+    nav {
+        background-color: whitesmoke;
+        color: black;
+        grid-area: nav;
+    }
+
+    nav>ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        border-right: 2%;
+        border-color: whitesmoke;
+        border-style: solid;
+        /*width: 10%;*/
+        background-color: whitesmoke;
+    }
+
+    nav>ul li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color on hover */
+    nav>ul li a:hover {
+        background-color: #555;
+        color: whitesmoke;
+    }
+
+    .inputFields {
+        width: 200px;
+        height: 30px;
+    }
+
+    .inputFields2 {
+        width: 200px;
+        height: 30px;
+    }
+
+    #overview {
+        width: 200px;
+    }
+
+    .addCourse, .updateCourse {
+        width: 200px;
+        height: auto;
+        padding: 10px 20px;
+        border: 1px solid rgb(198, 198, 198);
+
+    }
+
+    .addCourse:hover, .updateCourse:hover {
+        font-weight: 600;
+        cursor: pointer;
+        background-color: #bcbcbc;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.11);
+    }
+
+    .module-input {
+        display: flex;
+        gap: 10px;
+    }
+
+    .field1 {
+        align-items: flex-start;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    .chartContainer {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .canvasContainer{
+        width: 100%;
+    
+
+    }
+
+
+    #chartsContainer{
+        width: 80%;
+    }
+
+    .pieContainer{
+        width: 70%;
+    }
+
+    .coursesContainer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 50px;
+
+    }
+    
+    th, td {
+        padding: 8px;
+        border: 1px solid black;
+    }
+
+}
+
+
+

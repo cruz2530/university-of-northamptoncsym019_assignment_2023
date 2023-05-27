@@ -2,7 +2,7 @@
     if(!isset($_SESSION)) 
         session_start();
 
-    require_once('users.php');
+    require_once($_SERVER['DOCUMENT_ROOT'].'/task2/php/auth/users.php');
 
     $users = new User();
     
