@@ -18,8 +18,8 @@ th {
 	border-color: white;
 }
 body {
-  background-color: rgb(65, 58, 84);
-
+	background-color: rgb(65, 58, 84);
+	color: white;
 }
 
 #view-more-button {
